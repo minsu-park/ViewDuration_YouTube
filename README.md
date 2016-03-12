@@ -3,7 +3,7 @@ We share a set of random YouTube videos crawled from the Web and a set of videos
 
 If you use either the *Random Videos* dataset or *Individual Logs* dataset in your research, please cite the paper. For example: 
 
-###### Park, M., Naaman, M., & Berger, J. (2016). A Data-driven Study of View Duration on YouTube. Tenth International Conference on Web and Social Media (ICWSM 2016). Cologne, Germany, May 2016.
+##### Park, M., Naaman, M., & Berger, J. (2016). A Data-driven Study of View Duration on YouTube. Tenth International Conference on Web and Social Media (ICWSM 2016). Cologne, Germany, May 2016.
 
 For questions, please contact:
 
