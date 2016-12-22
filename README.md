@@ -7,7 +7,11 @@ If you use either the ***Random Videos*** dataset or ***Individual Logs*** datas
 
 For questions, please contact:
 
-*Minsu Park* <sub>*Social Technologies Lab (https://s.tech.cornell.edu/), Jacobs Institute, Cornell Tech*</sub>
+***Minsu Park***
+
+*Social Technologies Lab (https://s.tech.cornell.edu/), Jacobs Institute, Cornell Tech*
+
+*minsu [at] jacobs [dot] cornell [dot] edu*
 
 
 ## Description:
