@@ -9,7 +9,8 @@ For questions, please contact:
 
 *Minsu Park*
 
-*Social Technologies Lab (https://s.tech.cornell.edu/), Jacobs Institute, Cornell Tech / minsu [at] jacobs [dot] cornell [dot] edu*
+<sub>*Social Technologies Lab (https://s.tech.cornell.edu/), Jacobs Institute, Cornell Tech*</sub>
+*minsu [at] jacobs [dot] cornell [dot] edu*
 
 
 ## Description:
