@@ -7,7 +7,7 @@ If you use either the ***Random Videos*** dataset or ***Individual Logs*** datas
 
 For questions, please contact:
 
-**Minsu Park**
+Minsu Park
 
 Social Technologies Lab (https://s.tech.cornell.edu/), Jacobs Institute, Cornell Tech
 
@@ -20,7 +20,8 @@ This dataset contains the video properties and sentiment of comments for each of
 ### Data Collection Procedures:
 **Format – variable (name of the variable in the data table)**
 
-####Random Videos:
+#### 1. Random Videos:
+
 This dataset is a sample of 1,125 random videos from YouTube. We first obtained 100,000 randomly sampled YouTube videos through [Random YouTube]( http://randomyoutube.net), a site that collects IDs of the 10 most recently uploaded videos every fifteen minutes. We then retrieved the video properties for each of the videos through the YouTube API. To find the average watch duration for each video, we scraped the YouTube video page to get the aggregate watch duration available on the video page statistics tab. This step resulted in 44,766 videos. Other videos were either private videos, were deleted, or did not provide aggregate statistics. Finally, to ensure proper measurement of sentiment, we required videos in our sample to have at least five English comments, resulting in a final set of 1,125 videos.
 
 For the ***Random Videos*** dataset, our view duration dependent variable was computed using the video's average view duration: the aggregate view duration of the video (as reported by YouTube) divided by the view count, both reported over the video's lifetime.
@@ -39,7 +40,8 @@ neg, neu, pos, compound
 
 For more information about VADER, see [https://github.com/cjhutto/vaderSentiment](https://github.com/cjhutto/vaderSentiment)
 
-####Individual Logs:
+#### 2. Individual Logs:
+
 The ***Individual Logs*** dataset is a set of 1,814 videos watched over several weeks by a sample of 158 participants recruited from [Task Rabbit](http://taskrabbit.com). To obtain this individual-level data, we developed and deployed a Chrome extension that collected how long each user spent each YouTube video page they visited, as well as other YouTube video information available at the time of the viewing. The extension recorded a view timestamp, video properties, and dwell time in each viewing session. The extension was installed and used by 189 participants who had a previous experience with YouTube, over a span of at least two weeks (our sample included 77 male and 112 female participants; there were no significant gender differences in usage of the extension). Using this extension, we collected a total of 17,599 video view sessions. We filtered videos which had missing information, were private, deleted, or did not have at least five English comments. We only kept videos where the participant's dwell time was not greater than the video duration to avoid unusually long dwell time due to potential errors (e.g., unexpected disconnections). The final dataset, as mentioned above, included 1,814 video view sessions. Note that we examined different cutoffs on dwell time from 1.5 times to 3 times longer than the video duration with truncation at 1 and found no impact on our key findings.
 
 For the ***Individual Logs*** dataset, our view duration dependent variable was computed differently. In this case, we have used an individual, but approximate, view duration measurement. In particular, we used the user's dwell time for each video on the video's page, as was measured by the extension, as an approximation for the actual view time for the video by that user. 
