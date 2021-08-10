@@ -3,26 +3,20 @@ We share a set of random YouTube videos crawled from the Web and a set of videos
 
 If you use either the ***Random Videos*** dataset or ***Individual Logs*** dataset in your research, please cite the paper. For example: 
 
-#### Park, M., Naaman, M., & Berger, J. (2016). A Data-driven Study of View Duration on YouTube. Tenth International Conference on Web and Social Media (ICWSM 2016). Cologne, Germany, May 2016.
+#### *Park, M., Naaman, M., & Berger, J. (2016). A Data-driven Study of View Duration on YouTube. Tenth International Conference on Web and Social Media (ICWSM 2016). Cologne, Germany, May 2016.*
 
-For questions, please contact:
-
-Minsu Park
-
-Social Technologies Lab (https://s.tech.cornell.edu/), Jacobs Institute, Cornell Tech
-
-minsu [at] jacobs [dot] cornell [dot] edu
+For questions, please contact: Minsu Park ([Social Technologies Lab](https://s.tech.cornell.edu/) at Cornell Tech; minsu [at] jacobs [dot] cornell [dot] edu)
 
 
 ## Description:
-This dataset contains the video properties and sentiment of comments for each of the videos collected through the YouTube API. We also include the average watch duration for each video (for both randomly selected videos and videos watched by our participants) and dwell time of individual users. Details of the data collection and process procedures are provided in the paper.
+This dataset contains the video properties and sentiment of comments for each of the videos collected through the YouTube API. We also include the average watch duration for each video (for both randomly selected videos and videos watched by our participants) and dwell time of individual users. Details of the data collection and process procedures are provided in the [paper](https://s.tech.cornell.edu/assets/papers/ParkICWSM2016_YT.pdf).
 
 ### Data Collection Procedures:
 **Format – variable (name of the variable in the data table)**
 
 #### 1. Random Videos:
 
-This dataset is a sample of 1,125 random videos from YouTube. We first obtained 100,000 randomly sampled YouTube videos through [Random YouTube]( http://randomyoutube.net), a site that collects IDs of the 10 most recently uploaded videos every fifteen minutes. We then retrieved the video properties for each of the videos through the YouTube API. To find the average watch duration for each video, we scraped the YouTube video page to get the aggregate watch duration available on the video page statistics tab. This step resulted in 44,766 videos. Other videos were either private videos, were deleted, or did not provide aggregate statistics. Finally, to ensure proper measurement of sentiment, we required videos in our sample to have at least five English comments, resulting in a final set of 1,125 videos.
+This dataset is a sample of 1,125 random videos from YouTube. We first obtained 100,000 randomly sampled YouTube videos through [Random YouTube](http://randomyoutube.net), a site that collects IDs of the 10 most recently uploaded videos every fifteen minutes. We then retrieved the video properties for each of the videos through the YouTube API. To find the average watch duration for each video, we scraped the YouTube video page to get the aggregate watch duration available on the video page statistics tab. This step resulted in 44,766 videos. Other videos were either private videos, were deleted, or did not provide aggregate statistics. Finally, to ensure proper measurement of sentiment, we required videos in our sample to have at least five English comments, resulting in a final set of 1,125 videos.
 
 For the ***Random Videos*** dataset, our view duration dependent variable was computed using the video's average view duration: the aggregate view duration of the video (as reported by YouTube) divided by the view count, both reported over the video's lifetime.
 Here are variables of ***Random Videos*** (1,125 videos):
